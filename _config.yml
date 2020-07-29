@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Russ Delos Santos"
 title_separator          : "-"
 name                     : &name "Russ Delos Santos"
-description              : &description "personal description"
+description              : &description "adlhgakdjhg"
 url                      : https://rmdelossantos.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rmdelossantos/rmdelossantos.github.io"
@@ -99,11 +99,11 @@ author:
   github           : "rmdelossantos"
   google_plus      :
   keybase          :
-  instagram        : "@_russ1104"
+  instagram        : "_russ1104"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
