@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Russ Delos Santos"
   avatar           : "russ_dp.jpg"
-  bio              : [Electrical Engineering & Machine Learning,Former AI Engineer at Monstar Lab Philippines]
+  bio              : [Electrical Engineering & Machine Learning,\n\n\n,Former AI Engineer at Monstar Lab Philippines]
   location         : "Manila, Philippines"
   employer         : 
   pubmed           : 
