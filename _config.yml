@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Russ Delos Santos"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "russ_dp.jpg"
+  bio              : "Electrical Engineering | Machine Learning"
+  location         : "Manila, Philippines"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -179,13 +179,13 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
