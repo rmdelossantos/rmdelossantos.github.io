@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Russ Delos Santos"
   avatar           : "russ_dp.jpg"
-  bio              : "Electrical Engineering - Machine Learning"
+  bio              : "Electrical Engineering & Machine Learning"
   location         : "Manila, Philippines"
-  employer         :
+  employer         :  "Former AI Engineer at Monstar Lab Philippines"
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "rmdelossantos2@up.edu.ph"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
