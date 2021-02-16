@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello! I'm Russ.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+        <link rel="shortcut icon" href="src/assets/img/logo.ico" type="image/x-icon">
+
+
+        <!-- Initial Style -->
+        <style>
+            body {
+                font-family: "Poppins", serif;
+            }
+
+            button {
+                background-color: Transparent;
+                background-repeat:no-repeat;
+                border: none;
+                cursor:pointer;
+                outline:none;
+                width: 150px;
+                height: 50px;
+                font-size: 15px;
+                color: #707070;
+                text-align: right;
+                padding: 0px;
+            }
+
+            #navbar-logo {
+                height: 60px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            #hero {
+                height: 500px;
+                padding-top: 80px;
+            }
+
+            #hero-button{
+                text-align: left;
+                font-size: 20px;
+                font-weight: 600;
+                color:blue;
+            }
+
+            footer {
+                padding: 50px;
+            }
+
+            button:hover {
+                color: blue;
+                text-decoration: line-through;
+                text-decoration-color: blue;
+            }
+
+            .flex-container {
+                display: flex;
+                background-color: #ffffff;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .flex-container > article{
+                padding-right: 50px;
+            }
+
+            .flex-container > article > header > h1{
+                padding-top: 50px;
+                font-size: 50px;
+                color: #707070;
+                font-weight: 1000;
+            }
+
+            .flex-container > article > header {
+                width: 100 px;
+            }
+
+            .flex-container > article > header > h1{
+                color: blue;
+                margin-bottom: 0px;
+                font-weight: 1000;
+            }
+
+            .flex-container > article > header > p{
+                margin: 0px;
+                font-size: 20px;
+                color:  #707070;
+                font-weight: 500;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <nav class="flex-container">
+            <img id="navbar-logo" src="src/assets/img/logo.svg"/>
+            <div>
+                <button>Instagram</button>
+                <button>GitHub</button>
+                <button>Behance</button>
+            </div>
+        </nav>
+        
+        <div class="flex-container">
+            <article >
+                <header>
+                    <h1>Hello! I am Russ.</h1>
+                    <p>I'm an Engineer + Designer based in the Philippines.</p>
+                    <p>Currently working as a Software Engineer for Manulife Philippines.</p>
+                    <button id="hero-button">Let's Connect!</button>
+                </header>
+            </article>
+            <img id="hero" src="src/assets/img/hero.svg"/>
+        </div>
+
+        <footer>
+        </footer>
+
+        <script src="" async defer></script>
+    </body>
+</html>
