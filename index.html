@@ -12,9 +12,14 @@
     <title>Hello! I'm Russ.</title>
 
     <style>
-        .container{
+        .container {
             align-items: center;
         }
+
+        .container-fluid{
+            padding: 0 !important;
+        }
+
         .nav-link a {
             color: #707070;
         }
@@ -23,13 +28,17 @@
             color: #0000ff;
         }
 
+        .hero-image {
+            width: 100%;
+        }
+
         .hero-text {
             color: #0000ff;
         }
 
         p.hero-link:hover {
             color: #0000ff;
-            text-decoration: line-through; 
+            text-decoration: line-through;
             text-decoration-color: #0000ff;
         }
 
@@ -44,9 +53,9 @@
     <div class="container p-3">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./src/assets/img/logo.svg" alt="" width="40" class="d-inline-block align-text-top">
-                </a>
+                    <a class="brand flex-column" href="#">
+                        <img src="./src/assets/img/logo.svg" alt="" width="40" class="d-inline-block align-text-top">
+                    </a>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item px-5">
@@ -67,7 +76,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container p-3">
             <div class="row">
-                <div class="col col-md-6" style="align-self: center;">
+                <div class="col" style="align-self: center;">
                     <p class="h1 hero-text">Engineer / Designer</p>
                     <p class="lead">Hello! I am Russ, an engineer / designer based in the Philippines. I'm currently a
                         Software Engineer in Manulife Philippines. Ping and let's work together!</p>
@@ -75,8 +84,8 @@
                         <p class="h3 hero-link">Let's Connect!</p>
                     </a>
                 </div>
-                <div class="col col-md-6 d-flex flex-row-reverse">
-                    <img src=".\src\assets\img\hero.svg">
+                <div class="col d-flex flex-row-reverse">
+                    <img class="hero-image" src=".\src\assets\img\hero.webp">
                 </div>
             </div>
         </div>
