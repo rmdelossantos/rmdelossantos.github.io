@@ -1,133 +1,86 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hello! I'm Russ.</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
-        <link rel="shortcut icon" href="src/assets/img/logo.ico" type="image/x-icon">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Initial Style -->
-        <style>
-            body {
-                font-family: "Poppins", serif;
-            }
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Hello! I'm Russ.</title>
 
-            button {
-                background-color: Transparent;
-                background-repeat:no-repeat;
-                border: none;
-                cursor:pointer;
-                outline:none;
-                width: 150px;
-                height: 50px;
-                font-size: 15px;
-                color: #707070;
-                text-align: right;
-                padding: 0px;
-            }
+    <style>
+        .container{
+            align-items: center;
+        }
+        .nav-link a {
+            color: #707070;
+        }
 
-            #navbar-logo {
-                height: 50px;
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
+        .hero-link {
+            color: #0000ff;
+        }
 
-            #hero {
-                width: 450px;
-                padding-top: 30px;
-            }
+        .hero-text {
+            color: #0000ff;
+        }
 
-            #hero-button{
-                text-align: left;
-                font-size: 20px;
-                font-weight: 600;
-                color:blue;
-            }
+        p.hero-link:hover {
+            color: #0000ff;
+            text-decoration: line-through; 
+            text-decoration-color: #0000ff;
+        }
 
-            footer {
-                padding: 50px;
-            }
+        a.nav-link:hover {
+            color: #0000ff !important;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
 
-            button:hover {
-                color: blue;
-                text-decoration: line-through;
-                text-decoration-color: blue;
-            }
-
-            .flex-container {
-                display: flex;
-                background-color: #ffffff;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                padding-left: 100px;
-                padding-right: 100px;
-            }
-            .flex-container > article{
-                padding-right: 50px;
-            }
-
-            .flex-container > article > header > h1{
-                padding-top: 50px;
-                font-size: 50px;
-                color: #707070;
-                font-weight: 1000;
-            }
-
-            .flex-container > article > header {
-                width: 100 px;
-            }
-
-            .flex-container > article > header > h1{
-                color: blue;
-                margin-bottom: 0px;
-                font-weight: 1000;
-            }
-
-            .flex-container > article > header > p{
-                margin: 0px;
-                font-size: 20px;
-                color:  #707070;
-                font-weight: 500;
-            }
-
-        </style>
-    </head>
-
-    <body>
-        <nav class="flex-container">
-            <img id="navbar-logo" src="src/assets/img/logo.svg"/>
-            <div>
-                <button>Instagram</button>
-                <button>GitHub</button>
-                <button>Behance</button>
+<body>
+    <div class="container p-3">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./src/assets/img/logo.svg" alt="" width="40" class="d-inline-block align-text-top">
+                </a>
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-5">
+                            <a class="nav-link active" aria-current="page" href="#">GitHub</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="nav-link active" aria-current="page" href="#">LinkedIn</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="nav-link active" aria-current="page" href="#">Behance</a>
+                        </li>
+                    </ul>
+                </form>
             </div>
         </nav>
-        
-        <div class="flex-container">
-            <article >
-                <header>
-                    <h1>Software Engineer <br>& Designer</h1>
-                    <p>Hello! I am Russ, an Engineer+Designer based in the Philippines. I'm currently working as a Software Engineer for</p>
-                    <p>Manulife Philippines.</p>
-                    <button id="hero-button" href="https://www.linkedin.com/in/russdelossantos/">Let's Connect!</button>
-                </header>
-            </article>
-            <img id="hero" src="src/assets/img/hero.svg"/>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col col-md-6" style="align-self: center;">
+                    <p class="h1 hero-text">Engineer / Designer</p>
+                    <p class="lead">Hello! I am Russ, an engineer / designer based in the Philippines. I'm currently a
+                        Software Engineer in Manulife Philippines. Ping and let's work together!</p>
+                    <a class="text-decoration-none " href="https://www.linkedin.com/in/russdelossantos/">
+                        <p class="h3 hero-link">Let's Connect!</p>
+                    </a>
+                </div>
+                <div class="col col-md-6 d-flex flex-row-reverse">
+                    <img src=".\src\assets\img\hero.svg">
+                </div>
+            </div>
         </div>
+    </div>
+</body>
 
-        <footer>
-        </footer>
-
-        <script src="" async defer></script>
-    </body>
 </html>
