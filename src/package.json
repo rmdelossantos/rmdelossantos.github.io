@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "practice personal portfolio in bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "scss": "node-sass scss/style.scss -o css",
+    "scss:watch": "npm run scss && node-sass scss/style.scss -o css"
+  },
+  "author": "rmdelossantos",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0"
+  }
+}

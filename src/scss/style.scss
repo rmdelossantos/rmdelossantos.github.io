@@ -1,0 +1,29 @@
+$primary:       #002C3E;
+$secondary:     #F7444E;
+$success:       #78BCC4;
+$light:         #F7F8F3;
+
+$spacer: 2rem;
+
+.navbar.sticky-top{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-logo {
+    height: 4em;
+}
+
+.navbar-btn {
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open>.dropdown-toggle.btn-primary {
+    color: $secondary !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+    text-decoration: line-through 1px $secondary !important;
+    text-decoration-color: $secondary !important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
