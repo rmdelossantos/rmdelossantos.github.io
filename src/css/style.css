@@ -39,16 +39,16 @@ hr {
   border-radius: 0 !important; }
 
 .about-button-text {
-  font-size: 1.5rem; }
+  font-size: 1.5rem im !important; }
 
 .what-i-do-image {
-  height: 10vh;
-  margin-bottom: 2rem; }
+  height: 10vh !important;
+  margin-bottom: 2rem !important; }
 
 .experience-image {
-  height: 7vh;
-  margin: auto;
-  display: block; }
+  height: 7vh !important;
+  margin: auto !important;
+  display: block !important; }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
