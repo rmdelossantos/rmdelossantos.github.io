@@ -44,8 +44,7 @@ html, body {
 }
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin:0;
     border: 0;
     border-top: 5px solid $primary;
   }
@@ -68,5 +67,15 @@ hr {
     margin:auto !important;
     display: block !important;
 }
+ .cta-lead {
+     font-size: 2em !important;
+     margin:0 !important;
+ }
+
+ .cta-display {
+    font-size: 4em !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+ }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

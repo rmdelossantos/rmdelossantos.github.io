@@ -30,8 +30,7 @@ html, body {
   padding: 0; }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0;
   border: 0;
   border-top: 5px solid #002C3E; }
 
@@ -49,6 +48,15 @@ hr {
   height: 7vh !important;
   margin: auto !important;
   display: block !important; }
+
+.cta-lead {
+  font-size: 2em !important;
+  margin: 0 !important; }
+
+.cta-display {
+  font-size: 4em !important;
+  margin: 0 !important;
+  padding: 0 !important; }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
