@@ -16,8 +16,7 @@ html, body {
   padding: 0 !important;
   font-size: 2rem !important; }
 
-.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open > .dropdown-toggle.btn-primary,
-.hero-btn:hover, .hero-btn:focus, .hero-btn:active, .hero-btn.active {
+.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open > .dropdown-toggle.btn-primary {
   color: #F7444E !important;
   background-color: #002C3E !important;
   border-color: #002C3E !important;

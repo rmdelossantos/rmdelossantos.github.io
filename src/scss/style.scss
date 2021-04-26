@@ -28,8 +28,8 @@ html, body {
     font-size: 2rem !important; 
 }
 
-.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open>.dropdown-toggle.btn-primary,
-.hero-btn:hover, .hero-btn:focus, .hero-btn:active, .hero-btn.active {
+
+.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open>.dropdown-toggle.btn-primary {
     color: $secondary !important;
     background-color: $primary !important;
     border-color: $primary !important;
