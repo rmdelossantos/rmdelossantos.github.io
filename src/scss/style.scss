@@ -38,9 +38,10 @@ html, body {
 }
 
 .introduction-image {
-    height: 60vh;
-    margin:0;
-    padding:0;
+    height: 100% !important;
+    max-width: 100% !important;
+    margin:0 !important;
+    padding:0 im !important;
 }
 
 hr {
@@ -63,9 +64,11 @@ hr {
 }
 
 .experience-image{
-    height: 7vh !important;
-    margin:auto !important;
+    height: 100% !important;
     display: block !important;
+    padding: 2rem i !important;
+    margin: auto !important;
+    max-width: 100%;
 }
  .cta-lead {
      font-size: 2em !important;

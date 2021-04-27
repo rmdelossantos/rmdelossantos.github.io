@@ -24,9 +24,10 @@ html, body {
   text-decoration-color: #F7444E !important; }
 
 .introduction-image {
-  height: 60vh;
-  margin: 0;
-  padding: 0; }
+  height: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 im !important; }
 
 hr {
   margin: 0;
@@ -44,9 +45,11 @@ hr {
   margin-bottom: 2rem !important; }
 
 .experience-image {
-  height: 7vh !important;
+  height: 100% !important;
+  display: block !important;
+  padding: 2rem i !important;
   margin: auto !important;
-  display: block !important; }
+  max-width: 100%; }
 
 .cta-lead {
   font-size: 2em !important;
