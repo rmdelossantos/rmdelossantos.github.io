@@ -4,9 +4,11 @@ $success:       #78BCC4;
 $light:         #F7F8F3;
 
 $spacer: 2rem;
+$enable-responsive-font-sizes: true;
+
 
 html, body {
-    height: 100%
+    height: 100%;
    }
 
 .navbar.sticky-top{
@@ -15,7 +17,8 @@ html, body {
 }
 
 .navbar-logo {
-    height: 3em;
+    height: 2em;
+    margin: 0;
 }
 
 .navbar-btn {
@@ -28,6 +31,14 @@ html, body {
     font-size: 2rem !important; 
 }
 
+h1.hero-text{
+  font-size: 3.5vmax !important;
+}
+
+h2.hero-text{
+  font-size: 3vmax !important;
+}
+
 
 .navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open>.dropdown-toggle.btn-primary {
     color: $secondary !important;
@@ -38,16 +49,20 @@ html, body {
 }
 
 .introduction-image {
-    height: 100% !important;
-    max-width: 100% !important;
+    height: 80% !important;
+    max-height: 80% !important;
+    max-width: 80% !important;
     margin:0 !important;
-    padding:0 im !important;
+    padding:0 !important;
 }
 
-hr {
-    margin:0;
-    border: 0;
-    border-top: 5px solid $primary;
+hr.line {
+    margin:0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    background-color: $primary !important;
+    opacity: 20% !important;
+    border-width: 0 !important;
   }
 
 .about-button {
@@ -55,27 +70,49 @@ hr {
 }
 
 .about-button-text {
-    font-size: 1.5rem !important;
-}  
+    font-size: 1.3em !important;
+}
+
+.what-i-do-column {
+    margin-bottom: 2em !important;
+}
 
 .what-i-do-image{
-    height: 10vh !important;
-    margin-bottom: 2rem !important;
+    height: 4em !important;
+    margin-bottom: 1em !important;
 }
 
 .experience-image{
-    height: 100% !important;
+    height: 60% !important;
     max-width: 100% !important;
     margin: auto !important;
     display: block !important;
 }
+
+
+.skill-image {
+  height:55% !important;
+  max-width: 10vh;
+  margin: auto !important;
+  display: block !important;
+}
+
+.project-image {
+    height: auto !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    margin: auto !important;
+    display: block !important;
+
+}
+
  .cta-lead {
-     font-size: 2em !important;
+     font-size: 2vmax !important;
      margin:0 !important;
  }
 
  .cta-display {
-    font-size: 4em !important;
+    font-size: 4vmax !important;
     margin: 0 !important; 
     padding: 0 !important;
  }
@@ -101,6 +138,7 @@ hr {
     .experience-image {
       min-height: 4rem !important;
     }
+     
 }
 
 @media screen and (max-width: 767px) {
