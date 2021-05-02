@@ -36,7 +36,23 @@ h1.hero-text{
 }
 
 h2.hero-text{
-  font-size: 3vmax !important;
+  font-size: 2.5vmax !important;
+}
+
+.hero-link:hover, .hero-link:focus, .hero-link:active {
+    color: $secondary !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+    text-decoration: line-through 2px $secondary !important;
+    text-decoration-color: $secondary !important; 
+}
+
+h2.hero-text:hover, h2.hero-text:focus, h2.hero-text:active {
+    color: $secondary !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+    text-decoration: line-through 2px $secondary !important;
+    text-decoration-color: $secondary !important;
 }
 
 
@@ -116,6 +132,18 @@ hr.line {
     margin: 0 !important; 
     padding: 0 !important;
  }
+
+ .cta-link:hover, .cta-link:focus, .cta-link:active {
+    color: $primary !important;
+    text-decoration: line-through 2px $primary !important;
+    text-decoration-color: $primary !important; 
+}
+
+.cta-display:hover, .cta-display:focus, .cta-display:active {
+    color: $primary !important;
+    text-decoration: line-through 2px $primary !important;
+    text-decoration-color: $primary !important;
+}
 
 
 .collapse-non-md {

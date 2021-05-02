@@ -21,7 +21,21 @@ h1.hero-text {
   font-size: 3.5vmax !important; }
 
 h2.hero-text {
-  font-size: 3vmax !important; }
+  font-size: 2.5vmax !important; }
+
+.hero-link:hover, .hero-link:focus, .hero-link:active {
+  color: #F7444E !important;
+  background-color: #002C3E !important;
+  border-color: #002C3E !important;
+  text-decoration: line-through 2px #F7444E !important;
+  text-decoration-color: #F7444E !important; }
+
+h2.hero-text:hover, h2.hero-text:focus, h2.hero-text:active {
+  color: #F7444E !important;
+  background-color: #002C3E !important;
+  border-color: #002C3E !important;
+  text-decoration: line-through 2px #F7444E !important;
+  text-decoration-color: #F7444E !important; }
 
 .navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .open > .dropdown-toggle.btn-primary {
   color: #F7444E !important;
@@ -85,6 +99,16 @@ hr.line {
   font-size: 4vmax !important;
   margin: 0 !important;
   padding: 0 !important; }
+
+.cta-link:hover, .cta-link:focus, .cta-link:active {
+  color: #002C3E !important;
+  text-decoration: line-through 2px #002C3E !important;
+  text-decoration-color: #002C3E !important; }
+
+.cta-display:hover, .cta-display:focus, .cta-display:active {
+  color: #002C3E !important;
+  text-decoration: line-through 2px #002C3E !important;
+  text-decoration-color: #002C3E !important; }
 
 .collapse-non-md {
   height: 0;
