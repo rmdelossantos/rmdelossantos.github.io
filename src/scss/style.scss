@@ -139,7 +139,7 @@ hr.line {
     text-decoration-color: $primary !important; 
 }
 
-.cta-display:hover, .cta-display:focus, .cta-display:active {
+span.cta-display:hover, span.cta-display:focus, span.cta-display:active {
     color: $primary !important;
     text-decoration: line-through 2px $primary !important;
     text-decoration-color: $primary !important;

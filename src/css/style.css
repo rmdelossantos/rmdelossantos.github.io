@@ -105,7 +105,7 @@ hr.line {
   text-decoration: line-through 2px #002C3E !important;
   text-decoration-color: #002C3E !important; }
 
-.cta-display:hover, .cta-display:focus, .cta-display:active {
+span.cta-display:hover, span.cta-display:focus, span.cta-display:active {
   color: #002C3E !important;
   text-decoration: line-through 2px #002C3E !important;
   text-decoration-color: #002C3E !important; }
